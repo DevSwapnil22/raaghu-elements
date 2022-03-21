@@ -46,6 +46,10 @@
         "dist/rds-big-number-widget/rds-big-number-widget",
         "dist/rds-big-number-widget"
       ],
+      "rds-bool-chart": [
+        "dist/rds-bool-chart/rds-bool-chart",
+        "dist/rds-bool-chart"
+      ],
       "rds-button": [
         "dist/rds-elements/rds-button"
       ],
