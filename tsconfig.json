@@ -42,6 +42,10 @@
         "dist/rds-banner/rds-banner",
         "dist/rds-banner"
       ],
+      "rds-big-number-widget": [
+        "dist/rds-big-number-widget/rds-big-number-widget",
+        "dist/rds-big-number-widget"
+      ],
       "rds-button": [
         "dist/rds-elements/rds-button"
       ],
