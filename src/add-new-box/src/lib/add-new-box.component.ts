@@ -2,13 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'add-new-box',
-  template: `
-    <p>
-      add-new-box works!
-    </p>
-  `,
-  styles: [
-  ]
+  templateUrl: './add-new-box.component.html',
+  styleUrls: ['./add-new-box.component.scss']
 })
 export class AddNewBoxComponent implements OnInit {
 

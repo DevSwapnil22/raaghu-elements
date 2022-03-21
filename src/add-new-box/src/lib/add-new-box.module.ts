@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { AddNewBoxComponent } from './add-new-box.component';
 
-
-
 @NgModule({
   declarations: [
     AddNewBoxComponent
