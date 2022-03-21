@@ -34,6 +34,10 @@
         "dist/rds-avatar/rds-avatar",
         "dist/rds-avatar"
       ],
+      "rds-badge": [
+        "dist/rds-badge/rds-badge",
+        "dist/rds-badge"
+      ],
       "rds-button": [
         "dist/rds-elements/rds-button"
       ],
