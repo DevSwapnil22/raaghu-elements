@@ -26,6 +26,10 @@
       "rds-alert": [
         "dist/rds-elements/rds-alert"
       ],
+      "rds-area-chart": [
+        "dist/rds-area-chart/rds-area-chart",
+        "dist/rds-area-chart"
+      ],
       "rds-button": [
         "dist/rds-elements/rds-button"
       ],
