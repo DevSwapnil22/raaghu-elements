@@ -30,6 +30,10 @@
         "dist/rds-area-chart/rds-area-chart",
         "dist/rds-area-chart"
       ],
+      "rds-avatar": [
+        "dist/rds-avatar/rds-avatar",
+        "dist/rds-avatar"
+      ],
       "rds-button": [
         "dist/rds-elements/rds-button"
       ],

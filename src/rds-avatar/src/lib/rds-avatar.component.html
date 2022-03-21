@@ -1,0 +1,10 @@
+<div class="block" *ngIf="!WithProfilePic">
+  <div [ngClass]="{'sm-circle':Size==='Small', 'md-circle':Size==='Medium', 'lg-circle':Size==='Large'}">
+    <p>{{fName}}{{lName}}</p>
+  </div>
+</div>
+
+<div *ngIf="WithProfilePic">
+  <img [src]="profilePic"
+    [ngClass]="{'sm-PicCircle': Size==='Small', 'md-PicCircle': Size==='Medium', 'lg-PicCircle': Size==='Large'}" />
+</div>

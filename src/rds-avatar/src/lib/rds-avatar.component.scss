@@ -1,0 +1,59 @@
+.block {
+  text-align: center;
+}
+
+.sm-circle,
+.md-circle,
+.lg-circle {
+  background: rgb(14, 221, 176);
+  border-radius: 50%;
+  display: table;
+  font-weight: bold;
+  color: white;
+}
+
+.md-circle p,
+.sm-circle p,
+.lg-circle p {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.sm-circle {
+  height: 30px;
+  font-size: 11px;
+  width: 30px;
+}
+
+.md-circle {
+  height: 50px;
+  width: 50px;
+}
+
+.lg-circle {
+  height: 70px;
+  font-size: 25px;
+  width: 70px;
+}
+
+.sm-PicCircle,
+.md-PicCircle,
+.lg-PicCircle {
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.sm-PicCircle {
+  width: 30px;
+  height: 30px;
+}
+
+.md-PicCircle {
+  width: 50px;
+  height: 50px;
+}
+
+.lg-PicCircle {
+  width: 70px;
+  height: 70px;
+}
