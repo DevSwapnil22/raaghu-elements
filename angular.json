@@ -48,6 +48,7 @@
       "projectType": "library",
       "root": "src/rds-button",
       "sourceRoot": "src/rds-button/src",
+      "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
@@ -78,6 +79,7 @@
       "projectType": "library",
       "root": "src/rds-input",
       "sourceRoot": "src/rds-input/src",
+      "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
@@ -108,6 +110,7 @@
       "projectType": "library",
       "root": "src/rds-checkbox",
       "sourceRoot": "src/rds-checkbox/src",
+      "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
@@ -161,6 +164,37 @@
             "main": "src/rds-accordian/src/test.ts",
             "tsConfig": "src/rds-accordian/tsconfig.spec.json",
             "karmaConfig": "src/rds-accordian/karma.conf.js"
+          }
+        }
+      }
+    },
+    "add-new-box": {
+      "projectType": "library",
+      "root": "src/add-new-box",
+      "sourceRoot": "src/add-new-box/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/add-new-box/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/add-new-box/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/add-new-box/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/add-new-box/src/test.ts",
+            "tsConfig": "src/add-new-box/tsconfig.spec.json",
+            "karmaConfig": "src/add-new-box/karma.conf.js"
           }
         }
       }

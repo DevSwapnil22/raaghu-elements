@@ -17,9 +17,11 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
+      "add-new-box": [
+        "dist/rds-elements/add-new-box"
+      ],
       "rds-accordian": [
-        "dist/rds-accordian/rds-accordian",
-        "dist/rds-accordian"
+        "dist/rds-elements/rds-accordian"
       ],
       "rds-button": [
         "dist/rds-elements/rds-button"
