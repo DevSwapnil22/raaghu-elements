@@ -1,0 +1,13 @@
+{
+  "name": "rds-checkbox",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "WAI Technologies Pvt. Ltd. <contactus@waiin.com>",
+  "peerDependencies": {
+    "@angular/common": "^13.2.0",
+    "@angular/core": "^13.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
