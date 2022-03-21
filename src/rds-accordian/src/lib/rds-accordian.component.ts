@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-rds-accordian',
+  selector: 'rds-accordian',
   templateUrl: './rds-accordian.component.html',
   styleUrls: ['./rds-accordian.component.scss']
 })

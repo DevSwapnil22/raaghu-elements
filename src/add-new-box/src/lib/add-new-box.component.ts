@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-add-new-box',
+  selector: 'add-new-box',
   template: `
     <p>
       add-new-box works!

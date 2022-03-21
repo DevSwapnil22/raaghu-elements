@@ -23,6 +23,9 @@
       "rds-accordian": [
         "dist/rds-elements/rds-accordian"
       ],
+      "rds-alert": [
+        "dist/rds-elements/rds-alert"
+      ],
       "rds-button": [
         "dist/rds-elements/rds-button"
       ],
