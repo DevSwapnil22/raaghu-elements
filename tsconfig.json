@@ -38,6 +38,10 @@
         "dist/rds-badge/rds-badge",
         "dist/rds-badge"
       ],
+      "rds-banner": [
+        "dist/rds-banner/rds-banner",
+        "dist/rds-banner"
+      ],
       "rds-button": [
         "dist/rds-elements/rds-button"
       ],

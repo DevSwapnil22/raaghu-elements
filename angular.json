@@ -316,6 +316,37 @@
           }
         }
       }
+    },
+    "rds-banner": {
+      "projectType": "library",
+      "root": "src/rds-banner",
+      "sourceRoot": "src/rds-banner/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-banner/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-banner/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-banner/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-banner/src/test.ts",
+            "tsConfig": "src/rds-banner/tsconfig.spec.json",
+            "karmaConfig": "src/rds-banner/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }
