@@ -127,6 +127,9 @@
       ],
       "rds-nav-tab": [
         "dist/rds-elements/rds-nav-tab"
+      ],
+      "rds-offcanvas": [
+        "dist/rds-elements/rds-offcanvas"
       ]
     },
     "target": "es2017",
