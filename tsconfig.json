@@ -62,6 +62,9 @@
       "rds-card": [
         "dist/rds-elements/rds-card"
       ],
+      "rds-carousel": [
+        "dist/rds-elements/rds-carousel"
+      ],
       "rds-checkbox": [
         "dist/rds-elements/rds-checkbox"
       ],
