@@ -71,6 +71,9 @@
       "rds-chart-doughnut": [
         "dist/rds-elements/rds-chart-doughnut"
       ],
+      "rds-charting": [
+        "dist/rds-elements/rds-charting"
+      ],
       "rds-checkbox": [
         "dist/rds-elements/rds-checkbox"
       ],
