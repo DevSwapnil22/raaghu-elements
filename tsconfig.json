@@ -80,6 +80,9 @@
       "rds-collapse": [
         "dist/rds-elements/rds-collapse"
       ],
+      "rds-color-picker": [
+        "dist/rds-elements/rds-color-picker"
+      ],
       "rds-input": [
         "dist/rds-elements/rds-input"
       ]
