@@ -16,13 +16,13 @@ export interface chartDataset {
 }
 
 @Component({
-  selector: 'rds-bool-chart',
-  templateUrl: './rds-bool-chart.component.html',
-  styleUrls: ['./rds-bool-chart.component.scss']
+  selector: 'rds-chart-bool',
+  templateUrl: './rds-chart-bool.component.html',
+  styleUrls: ['./rds-chart-bool.component.scss']
 })
-export class RdsBoolChartComponent implements OnInit, AfterViewInit {
+export class RdsChartBoolComponent implements OnInit, AfterViewInit {
 
-  title = "rds-bool-chart";
+  title = "rds-chart-bool";
   static count = 0;
   canvas: any;
   ctx: any;
@@ -31,7 +31,7 @@ export class RdsBoolChartComponent implements OnInit, AfterViewInit {
   CanvasbackgroundColor: any;
 
   chartdata: any;
-  chartId = 'mychart' + RdsBoolChartComponent.count;
+  chartId = 'mychart' + RdsChartBoolComponent.count;
   @Input()
   chartWidth = 400;
 

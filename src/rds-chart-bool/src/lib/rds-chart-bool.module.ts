@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RdsBoolChartComponent } from './rds-bool-chart.component';
+import { RdsChartBoolComponent } from './rds-chart-bool.component';
 
 @NgModule({
   declarations: [
-    RdsBoolChartComponent
+    RdsChartBoolComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    RdsBoolChartComponent
+    RdsChartBoolComponent
   ]
 })
-export class RdsBoolChartModule { }
+export class RdsChartBoolModule { }

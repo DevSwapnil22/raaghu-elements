@@ -1,5 +1,5 @@
 {
-  "name": "rds-bool-chart",
+  "name": "rds-chart-bool",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^13.2.0",

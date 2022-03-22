@@ -44,8 +44,8 @@
       "rds-big-number-widget": [
         "dist/rds-elements/rds-big-number-widget"
       ],
-      "rds-bool-chart": [
-        "dist/rds-elements/rds-bool-chart"
+      "rds-chart-bool": [
+        "dist/rds-elements/rds-chart-bool"
       ],
       "rds-breadcrumb": [
         "dist/rds-elements/rds-breadcrumb"

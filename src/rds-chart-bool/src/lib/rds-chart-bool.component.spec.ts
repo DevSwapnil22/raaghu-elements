@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RdsBoolChartComponent } from './rds-bool-chart.component';
+import { RdsChartBoolComponent } from './rds-chart-bool.component';
 
-describe('RdsBoolChartComponent', () => {
-  let component: RdsBoolChartComponent;
-  let fixture: ComponentFixture<RdsBoolChartComponent>;
+describe('RdsChartBoolComponent', () => {
+  let component: RdsChartBoolComponent;
+  let fixture: ComponentFixture<RdsChartBoolComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RdsBoolChartComponent ]
+      declarations: [ RdsChartBoolComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RdsBoolChartComponent);
+    fixture = TestBed.createComponent(RdsChartBoolComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

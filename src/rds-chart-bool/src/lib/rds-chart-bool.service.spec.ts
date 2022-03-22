@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { RdsBoolChartService } from './rds-bool-chart.service';
+import { RdsChartBoolService } from './rds-chart-bool.service';
 
-describe('RdsBoolChartService', () => {
-  let service: RdsBoolChartService;
+describe('RdsChartBoolService', () => {
+  let service: RdsChartBoolService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(RdsBoolChartService);
+    service = TestBed.inject(RdsChartBoolService);
   });
 
   it('should be created', () => {

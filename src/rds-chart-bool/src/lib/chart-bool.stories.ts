@@ -1,11 +1,11 @@
 import { Story, Meta } from '@storybook/angular/types-6-0';
-import { RdsBoolChartComponent } from './rds-bool-chart.component';
+import { RdsChartBoolComponent } from './rds-chart-bool.component';
 
 export default {
 
   title: 'Elements/Boolean Chart',
 
-  component: RdsBoolChartComponent,
+  component: RdsChartBoolComponent,
   argTypes: {
     canvasBackgroundColor: { control: 'color' },
     ChartStyle: {
@@ -16,7 +16,7 @@ export default {
 
 } as Meta;
 
-const Template: Story<RdsBoolChartComponent> = (args: RdsBoolChartComponent) => ({
+const Template: Story<RdsChartBoolComponent> = (args: RdsChartBoolComponent) => ({
   props: args,
 
 });
