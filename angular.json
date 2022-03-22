@@ -1028,6 +1028,37 @@
           }
         }
       }
+    },
+    "rds-list-group": {
+      "projectType": "library",
+      "root": "src/rds-list-group",
+      "sourceRoot": "src/rds-list-group/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-list-group/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-list-group/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-list-group/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-list-group/src/test.ts",
+            "tsConfig": "src/rds-list-group/tsconfig.spec.json",
+            "karmaConfig": "src/rds-list-group/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }

@@ -112,6 +112,9 @@
       ],
       "rds-input-group": [
         "dist/rds-elements/rds-input-group"
+      ],
+      "rds-list-group": [
+        "dist/rds-elements/rds-list-group"
       ]
     },
     "target": "es2017",
