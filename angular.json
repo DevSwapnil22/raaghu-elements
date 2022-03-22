@@ -780,6 +780,37 @@
           }
         }
       }
+    },
+    "rds-double-range": {
+      "projectType": "library",
+      "root": "src/rds-double-range",
+      "sourceRoot": "src/rds-double-range/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-double-range/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-double-range/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-double-range/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-double-range/src/test.ts",
+            "tsConfig": "src/rds-double-range/tsconfig.spec.json",
+            "karmaConfig": "src/rds-double-range/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }
