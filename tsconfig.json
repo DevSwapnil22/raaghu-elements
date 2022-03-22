@@ -50,8 +50,8 @@
       "rds-breadcrumb": [
         "dist/rds-elements/rds-breadcrumb"
       ],
-      "rds-bubble-chart": [
-        "dist/rds-elements/rds-bubble-chart"
+      "rds-chart-bubble": [
+        "dist/rds-elements/rds-chart-bubble"
       ],
       "rds-button": [
         "dist/rds-elements/rds-button"

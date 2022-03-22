@@ -12,16 +12,16 @@ export interface chartDataset {
 }
 
 @Component({
-  selector: 'rds-bubble-chart',
-  templateUrl: './rds-bubble-chart.component.html',
-  styleUrls: ['./rds-bubble-chart.component.scss']
+  selector: 'rds-chart-bubble',
+  templateUrl: './rds-chart-bubble.component.html',
+  styleUrls: ['./rds-chart-bubble.component.scss']
 })
-export class RdsBubbleChartComponent implements OnInit, OnChanges, AfterViewInit {
+export class RdsChartBubbleComponent implements OnInit, OnChanges, AfterViewInit {
 
   static count = 0;
   canvas: any;
   ctx: any;
-  @Input() chartId = 'bubbleChart' + RdsBubbleChartComponent.count;
+  @Input() chartId = 'ChartBubble' + RdsChartBubbleComponent.count;
   @Input() chartWidth = 400;
   @Input() chartStyle?: any;
   @Input() chartLabels?: any;
@@ -30,7 +30,7 @@ export class RdsBubbleChartComponent implements OnInit, OnChanges, AfterViewInit
   @Input() chartOptions?: any;
 
   constructor() {
-    RdsBubbleChartComponent.count++;
+    RdsChartBubbleComponent.count++;
   }
 
   ngOnInit(): void {
@@ -46,14 +46,14 @@ export class RdsBubbleChartComponent implements OnInit, OnChanges, AfterViewInit
   }
 
   ngOnChanges(): void {
-    this.bubbleChartBrowser();
+    this.ChartBubbleBrowser();
   }
 
   ngAfterViewInit(): void {
-    this.bubbleChartBrowser();
+    this.ChartBubbleBrowser();
   }
 
-  bubbleChartBrowser(): void {
+  ChartBubbleBrowser(): void {
     let chartStatus = Chart.getChart(this.chartId);
     if (chartStatus != undefined) {
       chartStatus.destroy();

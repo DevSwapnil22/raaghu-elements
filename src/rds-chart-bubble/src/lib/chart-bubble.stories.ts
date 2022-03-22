@@ -1,9 +1,9 @@
 import { Story, Meta } from '@storybook/angular/types-6-0';
-import { RdsBubbleChartComponent } from './rds-bubble-chart.component';
+import { RdsChartBubbleComponent } from './rds-chart-bubble.component';
 
 export default {
   title: 'ELEMENTS/Bubble Chart',
-  component: RdsBubbleChartComponent,
+  component: RdsChartBubbleComponent,
   argTypes: {
     canvasBackgroundColor: { control: 'color' },
     chartStyle: {
@@ -14,7 +14,7 @@ export default {
 
 } as Meta;
 
-const Template: Story<RdsBubbleChartComponent> = (args: RdsBubbleChartComponent) => ({
+const Template: Story<RdsChartBubbleComponent> = (args: RdsChartBubbleComponent) => ({
   props: args,
 
 });

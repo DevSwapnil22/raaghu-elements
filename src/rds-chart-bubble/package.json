@@ -1,5 +1,5 @@
 {
-  "name": "rds-bubble-chart",
+  "name": "rds-chart-bubble",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^13.2.0",

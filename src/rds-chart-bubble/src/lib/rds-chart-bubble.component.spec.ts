@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RdsBubbleChartComponent } from './rds-bubble-chart.component';
+import { RdsChartBubbleComponent } from './rds-chart-bubble.component';
 
-describe('RdsBubbleChartComponent', () => {
-  let component: RdsBubbleChartComponent;
-  let fixture: ComponentFixture<RdsBubbleChartComponent>;
+describe('RdsChartBubbleComponent', () => {
+  let component: RdsChartBubbleComponent;
+  let fixture: ComponentFixture<RdsChartBubbleComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RdsBubbleChartComponent ]
+      declarations: [ RdsChartBubbleComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RdsBubbleChartComponent);
+    fixture = TestBed.createComponent(RdsChartBubbleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

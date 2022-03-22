@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RdsBubbleChartComponent } from './rds-bubble-chart.component';
+import { RdsChartBubbleComponent } from './rds-chart-bubble.component';
 
 @NgModule({
   declarations: [
-    RdsBubbleChartComponent
+    RdsChartBubbleComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    RdsBubbleChartComponent
+    RdsChartBubbleComponent
   ]
 })
-export class RdsBubbleChartModule { }
+export class RdsChartBubbleModule { }

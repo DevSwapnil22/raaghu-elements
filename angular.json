@@ -471,23 +471,23 @@
         }
       }
     },
-    "rds-bubble-chart": {
+    "rds-chart-bubble": {
       "projectType": "library",
-      "root": "src/rds-bubble-chart",
-      "sourceRoot": "src/rds-bubble-chart/src",
+      "root": "src/rds-chart-bubble",
+      "sourceRoot": "src/rds-chart-bubble/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "src/rds-bubble-chart/ng-package.json"
+            "project": "src/rds-chart-bubble/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "src/rds-bubble-chart/tsconfig.lib.prod.json"
+              "tsConfig": "src/rds-chart-bubble/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "src/rds-bubble-chart/tsconfig.lib.json"
+              "tsConfig": "src/rds-chart-bubble/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -495,9 +495,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "src/rds-bubble-chart/src/test.ts",
-            "tsConfig": "src/rds-bubble-chart/tsconfig.spec.json",
-            "karmaConfig": "src/rds-bubble-chart/karma.conf.js"
+            "main": "src/rds-chart-bubble/src/test.ts",
+            "tsConfig": "src/rds-chart-bubble/tsconfig.spec.json",
+            "karmaConfig": "src/rds-chart-bubble/karma.conf.js"
           }
         }
       }
