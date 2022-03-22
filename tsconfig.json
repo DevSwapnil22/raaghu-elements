@@ -65,6 +65,10 @@
       "rds-carousel": [
         "dist/rds-elements/rds-carousel"
       ],
+      "rds-chart-bar-horizontal": [
+        "dist/rds-chart-bar-horizontal/rds-chart-bar-horizontal",
+        "dist/rds-chart-bar-horizontal"
+      ],
       "rds-checkbox": [
         "dist/rds-elements/rds-checkbox"
       ],
