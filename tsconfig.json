@@ -130,6 +130,9 @@
       ],
       "rds-offcanvas": [
         "dist/rds-elements/rds-offcanvas"
+      ],
+      "rds-pagination": [
+        "dist/rds-elements/rds-pagination"
       ]
     },
     "target": "es2017",

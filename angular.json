@@ -1214,6 +1214,37 @@
           }
         }
       }
+    },
+    "rds-pagination": {
+      "projectType": "library",
+      "root": "src/rds-pagination",
+      "sourceRoot": "src/rds-pagination/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-pagination/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-pagination/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-pagination/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-pagination/src/test.ts",
+            "tsConfig": "src/rds-pagination/tsconfig.spec.json",
+            "karmaConfig": "src/rds-pagination/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }
