@@ -34,12 +34,42 @@
           "options": {
             "tsConfig": "tsconfig.json",
             "styles": [
-           
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
+          }
+        }
+      }
+    },
+    "rds-app-config": {
+      "projectType": "library",
+      "root": "src/rds-app-config",
+      "sourceRoot": "src/rds-app-config/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-app-config/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-app-config/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-app-config/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-app-config/src/test.ts",
+            "tsConfig": "src/rds-app-config/tsconfig.spec.json",
+            "karmaConfig": "src/rds-app-config/karma.conf.js"
           }
         }
       }
@@ -164,22 +194,22 @@
         }
       }
     },
-    "add-new-box": {
+    "rds-add-new-box": {
       "projectType": "library",
-      "root": "src/add-new-box",
-      "sourceRoot": "src/add-new-box/src",
+      "root": "src/rds-add-new-box",
+      "sourceRoot": "src/rds-add-new-box/src",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "src/add-new-box/ng-package.json"
+            "project": "src/rds-add-new-box/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "src/add-new-box/tsconfig.lib.prod.json"
+              "tsConfig": "src/rds-add-new-box/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "src/add-new-box/tsconfig.lib.json"
+              "tsConfig": "src/rds-add-new-box/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -187,9 +217,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "src/add-new-box/src/test.ts",
-            "tsConfig": "src/add-new-box/tsconfig.spec.json",
-            "karmaConfig": "src/add-new-box/karma.conf.js"
+            "main": "src/rds-add-new-box/src/test.ts",
+            "tsConfig": "src/rds-add-new-box/tsconfig.spec.json",
+            "karmaConfig": "src/rds-add-new-box/karma.conf.js"
           }
         }
       }
@@ -406,6 +436,37 @@
             "main": "src/rds-bool-chart/src/test.ts",
             "tsConfig": "src/rds-bool-chart/tsconfig.spec.json",
             "karmaConfig": "src/rds-bool-chart/karma.conf.js"
+          }
+        }
+      }
+    },
+    "rds-breadcrumb": {
+      "projectType": "library",
+      "root": "src/rds-breadcrumb",
+      "sourceRoot": "src/rds-breadcrumb/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-breadcrumb/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-breadcrumb/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-breadcrumb/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-breadcrumb/src/test.ts",
+            "tsConfig": "src/rds-breadcrumb/tsconfig.spec.json",
+            "karmaConfig": "src/rds-breadcrumb/karma.conf.js"
           }
         }
       }

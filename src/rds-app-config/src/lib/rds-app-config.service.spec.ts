@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { AddNewBoxService } from './add-new-box.service';
+import { RdsAppConfigService } from './rds-app-config.service';
 
-describe('AddNewBoxService', () => {
-  let service: AddNewBoxService;
+describe('RdsAppConfigService', () => {
+  let service: RdsAppConfigService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(AddNewBoxService);
+    service = TestBed.inject(RdsAppConfigService);
   });
 
   it('should be created', () => {

@@ -17,8 +17,8 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
-      "add-new-box": [
-        "dist/rds-elements/add-new-box"
+      "rds-add-new-box": [
+        "dist/rds-elements/rds-add-new-box"
       ],
       "rds-accordian": [
         "dist/rds-elements/rds-accordian"
@@ -26,29 +26,29 @@
       "rds-alert": [
         "dist/rds-elements/rds-alert"
       ],
+      "rds-app-config": [
+        "dist/rds-elements/rds-app-config"
+      ],
       "rds-area-chart": [
-        "dist/rds-area-chart/rds-area-chart",
-        "dist/rds-area-chart"
+        "dist/rds-elements/rds-area-chart"
       ],
       "rds-avatar": [
-        "dist/rds-avatar/rds-avatar",
-        "dist/rds-avatar"
+        "dist/rds-elements/rds-avatar"
       ],
       "rds-badge": [
-        "dist/rds-badge/rds-badge",
-        "dist/rds-badge"
+        "dist/rds-elements/rds-badge"
       ],
       "rds-banner": [
-        "dist/rds-banner/rds-banner",
-        "dist/rds-banner"
+        "dist/rds-elements/rds-banner"
       ],
       "rds-big-number-widget": [
-        "dist/rds-big-number-widget/rds-big-number-widget",
-        "dist/rds-big-number-widget"
+        "dist/rds-elements/rds-big-number-widget"
       ],
       "rds-bool-chart": [
-        "dist/rds-bool-chart/rds-bool-chart",
-        "dist/rds-bool-chart"
+        "dist/rds-elements/rds-bool-chart"
+      ],
+      "rds-breadcrumb": [
+        "dist/rds-elements/rds-breadcrumb"
       ],
       "rds-button": [
         "dist/rds-elements/rds-button"

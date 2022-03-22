@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
-import { AddNewBoxComponent } from './add-new-box.component';
+import { RdsAddNewBoxComponent } from './rds-add-new-box.component';
 
 @NgModule({
   declarations: [
-    AddNewBoxComponent
+    RdsAddNewBoxComponent
   ],
   imports: [
   ],
   exports: [
-    AddNewBoxComponent
+    RdsAddNewBoxComponent
   ]
 })
 export class AddNewBoxModule { }

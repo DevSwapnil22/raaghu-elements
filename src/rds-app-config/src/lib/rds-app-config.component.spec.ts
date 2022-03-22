@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AddNewBoxComponent } from './add-new-box.component';
+import { RdsAppConfigComponent } from './rds-app-config.component';
 
-describe('AddNewBoxComponent', () => {
-  let component: AddNewBoxComponent;
-  let fixture: ComponentFixture<AddNewBoxComponent>;
+describe('RdsAppConfigComponent', () => {
+  let component: RdsAppConfigComponent;
+  let fixture: ComponentFixture<RdsAppConfigComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AddNewBoxComponent ]
+      declarations: [ RdsAppConfigComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AddNewBoxComponent);
+    fixture = TestBed.createComponent(RdsAppConfigComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
