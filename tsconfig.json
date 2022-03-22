@@ -89,6 +89,9 @@
       "rds-double-range": [
         "dist/rds-elements/rds-double-range"
       ],
+      "rds-dropdown": [
+        "dist/rds-elements/rds-dropdown"
+      ],
       "rds-input": [
         "dist/rds-elements/rds-input"
       ]
