@@ -51,11 +51,13 @@
         "dist/rds-elements/rds-breadcrumb"
       ],
       "rds-bubble-chart": [
-        "dist/rds-bubble-chart/rds-bubble-chart",
-        "dist/rds-bubble-chart"
+        "dist/rds-elements/rds-bubble-chart"
       ],
       "rds-button": [
         "dist/rds-elements/rds-button"
+      ],
+      "rds-button-group": [
+        "dist/rds-elements/rds-button-group"
       ],
       "rds-checkbox": [
         "dist/rds-elements/rds-checkbox"

@@ -501,6 +501,37 @@
           }
         }
       }
+    },
+    "rds-button-group": {
+      "projectType": "library",
+      "root": "src/rds-button-group",
+      "sourceRoot": "src/rds-button-group/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-button-group/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-button-group/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-button-group/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-button-group/src/test.ts",
+            "tsConfig": "src/rds-button-group/tsconfig.spec.json",
+            "karmaConfig": "src/rds-button-group/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }
