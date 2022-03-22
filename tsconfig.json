@@ -59,6 +59,9 @@
       "rds-button-group": [
         "dist/rds-elements/rds-button-group"
       ],
+      "rds-card": [
+        "dist/rds-elements/rds-card"
+      ],
       "rds-checkbox": [
         "dist/rds-elements/rds-checkbox"
       ],
