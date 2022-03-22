@@ -74,6 +74,9 @@
       "rds-chart-line": [
         "dist/rds-elements/rds-chart-line"
       ],
+      "rds-chart-mixed": [
+        "dist/rds-elements/rds-chart-mixed"
+      ],
       "rds-charting": [
         "dist/rds-elements/rds-charting"
       ],
