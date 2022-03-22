@@ -118,6 +118,9 @@
       ],
       "rds-list-group": [
         "dist/rds-elements/rds-list-group"
+      ],
+      "rds-modal": [
+        "dist/rds-elements/rds-modal"
       ]
     },
     "target": "es2017",
