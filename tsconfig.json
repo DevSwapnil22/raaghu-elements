@@ -124,6 +124,9 @@
       ],
       "rds-nav-bar": [
         "dist/rds-elements/rds-nav-bar"
+      ],
+      "rds-nav-tab": [
+        "dist/rds-elements/rds-nav-tab"
       ]
     },
     "target": "es2017",

@@ -1152,6 +1152,37 @@
           }
         }
       }
+    },
+    "rds-nav-tab": {
+      "projectType": "library",
+      "root": "src/rds-nav-tab",
+      "sourceRoot": "src/rds-nav-tab/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-nav-tab/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-nav-tab/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-nav-tab/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-nav-tab/src/test.ts",
+            "tsConfig": "src/rds-nav-tab/tsconfig.spec.json",
+            "karmaConfig": "src/rds-nav-tab/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }
