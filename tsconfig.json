@@ -95,6 +95,9 @@
       "rds-dropdownlist": [
         "dist/rds-elements/rds-dropdownlist"
       ],
+      "rds-file-uploader": [
+        "dist/rds-elements/rds-file-uploader"
+      ],
       "rds-input": [
         "dist/rds-elements/rds-input"
       ]
