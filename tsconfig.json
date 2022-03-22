@@ -121,6 +121,9 @@
       ],
       "rds-modal": [
         "dist/rds-elements/rds-modal"
+      ],
+      "rds-nav-bar": [
+        "dist/rds-elements/rds-nav-bar"
       ]
     },
     "target": "es2017",
