@@ -98,6 +98,9 @@
       "rds-file-uploader": [
         "dist/rds-elements/rds-file-uploader"
       ],
+      "rds-icon": [
+        "dist/rds-elements/rds-icon"
+      ],
       "rds-input": [
         "dist/rds-elements/rds-input"
       ]
