@@ -69,6 +69,10 @@
         "dist/rds-chart-bar-horizontal/rds-chart-bar-horizontal",
         "dist/rds-chart-bar-horizontal"
       ],
+      "rds-chart-doughnut": [
+        "dist/rds-chart-doughnut/rds-chart-doughnut",
+        "dist/rds-chart-doughnut"
+      ],
       "rds-checkbox": [
         "dist/rds-elements/rds-checkbox"
       ],
