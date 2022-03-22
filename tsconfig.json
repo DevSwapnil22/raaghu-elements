@@ -92,6 +92,9 @@
       "rds-dropdown": [
         "dist/rds-elements/rds-dropdown"
       ],
+      "rds-dropdownlist": [
+        "dist/rds-elements/rds-dropdownlist"
+      ],
       "rds-input": [
         "dist/rds-elements/rds-input"
       ]
