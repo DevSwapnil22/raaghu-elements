@@ -1,10 +1,10 @@
 // also exported from '@storybook/angular' if you can deal with breaking changes in 6.1
 import { Story, Meta } from '@storybook/angular/types-6-0';
-import { RdsAreaChartComponent } from './rds-area-chart.component';
+import { RdsChartAreaComponent } from './rds-chart-area.component';
 
 export default {
   title: 'Elements/Area Chart ',
-  component: RdsAreaChartComponent,
+  component: RdsChartAreaComponent,
   argTypes: {
     canvasBackgroundColor: { control: 'color' },
     chartStyle: {
@@ -15,7 +15,7 @@ export default {
 
 } as Meta;
 
-const Template: Story<RdsAreaChartComponent> = (args: RdsAreaChartComponent) => ({
+const Template: Story<RdsChartAreaComponent> = (args: RdsChartAreaComponent) => ({
   props: args,
 
 });

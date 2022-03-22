@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { RdsAreaChartService } from './rds-area-chart.service';
+import { RdsChartAreaService } from './rds-chart-area.service';
 
-describe('RdsAreaChartService', () => {
-  let service: RdsAreaChartService;
+describe('RdsChartAreaService', () => {
+  let service: RdsChartAreaService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(RdsAreaChartService);
+    service = TestBed.inject(RdsChartAreaService);
   });
 
   it('should be created', () => {

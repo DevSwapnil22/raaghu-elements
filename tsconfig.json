@@ -29,8 +29,8 @@
       "rds-app-config": [
         "dist/rds-elements/rds-app-config"
       ],
-      "rds-area-chart": [
-        "dist/rds-elements/rds-area-chart"
+      "rds-chart-area": [
+        "dist/rds-elements/rds-chart-area"
       ],
       "rds-avatar": [
         "dist/rds-elements/rds-avatar"
@@ -66,12 +66,10 @@
         "dist/rds-elements/rds-carousel"
       ],
       "rds-chart-bar-horizontal": [
-        "dist/rds-chart-bar-horizontal/rds-chart-bar-horizontal",
-        "dist/rds-chart-bar-horizontal"
+        "dist/rds-elements/rds-chart-bar-horizontal"
       ],
       "rds-chart-doughnut": [
-        "dist/rds-chart-doughnut/rds-chart-doughnut",
-        "dist/rds-chart-doughnut"
+        "dist/rds-elements/rds-chart-doughnut"
       ],
       "rds-checkbox": [
         "dist/rds-elements/rds-checkbox"

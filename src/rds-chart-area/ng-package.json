@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/rds-elements/rds-area-chart",
+  "dest": "../../dist/rds-elements/rds-chart-area",
   "lib": {
     "entryFile": "src/public-api.ts"
   }

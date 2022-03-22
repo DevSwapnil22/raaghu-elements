@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { RdsAreaChartComponent } from './rds-area-chart.component';
+import { RdsChartAreaComponent } from './rds-chart-area.component';
 
 @NgModule({
   declarations: [
-    RdsAreaChartComponent
+    RdsChartAreaComponent
   ],
   imports: [
     CommonModule,
     FormsModule
   ],
   exports: [
-    RdsAreaChartComponent
+    RdsChartAreaComponent
   ]
 })
-export class RdsAreaChartModule { }
+export class RdsChartAreaModule { }

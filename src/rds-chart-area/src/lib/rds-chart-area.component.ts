@@ -16,16 +16,16 @@ export interface chartDataset {
 }
 
 @Component({
-  selector: 'rds-area-chart',
-  templateUrl: './rds-area-chart.component.html',
-  styleUrls: ['./rds-area-chart.component.scss']
+  selector: 'rds-chart-area',
+  templateUrl: './rds-chart-area.component.html',
+  styleUrls: ['./rds-chart-area.component.scss']
 })
-export class RdsAreaChartComponent implements OnInit, OnChanges, AfterViewInit {
+export class RdsChartAreaComponent implements OnInit, OnChanges, AfterViewInit {
 
   static count = 0;
   canvas: any;
   ctx: any;
-  chartId = 'areaChart' + RdsAreaChartComponent.count;
+  chartId = 'ChartArea' + RdsChartAreaComponent.count;
   @Input() chartWidth = 400;
 
   @Input() chartStyle?: any;
@@ -35,18 +35,18 @@ export class RdsAreaChartComponent implements OnInit, OnChanges, AfterViewInit {
   @Input() chartOptions?: any;
 
   constructor() {
-    RdsAreaChartComponent.count++;
+    RdsChartAreaComponent.count++;
   }
 
   ngOnInit(): void {
   }
 
   ngOnChanges(): void {
-    this.areaChartBrowser();
+    this.ChartAreaBrowser();
   }
 
   ngAfterViewInit(): void {
-    this.areaChartBrowser();
+    this.ChartAreaBrowser();
   }
 
   public get classes(): string[] {
@@ -58,7 +58,7 @@ export class RdsAreaChartComponent implements OnInit, OnChanges, AfterViewInit {
     return classes
   }
 
-  areaChartBrowser(): void {
+  ChartAreaBrowser(): void {
     let chartStatus = Chart.getChart(this.chartId);
     if (chartStatus != undefined) {
       chartStatus.destroy();

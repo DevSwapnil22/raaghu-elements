@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../coverage/rds-area-chart'),
+      dir: require('path').join(__dirname, '../../coverage/rds-chart-area'),
       subdir: '.',
       reporters: [
         { type: 'html' },
