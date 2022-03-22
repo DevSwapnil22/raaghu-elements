@@ -83,6 +83,10 @@
       "rds-color-picker": [
         "dist/rds-elements/rds-color-picker"
       ],
+      "rds-datepicker": [
+        "dist/rds-datepicker/rds-datepicker",
+        "dist/rds-datepicker"
+      ],
       "rds-input": [
         "dist/rds-elements/rds-input"
       ]
