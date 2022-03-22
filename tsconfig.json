@@ -101,6 +101,9 @@
       "rds-icon": [
         "dist/rds-elements/rds-icon"
       ],
+      "rds-illustration": [
+        "dist/rds-elements/rds-illustration"
+      ],
       "rds-input": [
         "dist/rds-elements/rds-input"
       ]
