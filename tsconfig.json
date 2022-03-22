@@ -77,6 +77,9 @@
       "rds-checkbox": [
         "dist/rds-elements/rds-checkbox"
       ],
+      "rds-collapse": [
+        "dist/rds-elements/rds-collapse"
+      ],
       "rds-input": [
         "dist/rds-elements/rds-input"
       ]
