@@ -136,6 +136,9 @@
       ],
       "rds-pagination": [
         "rds-elements/rds-pagination"
+      ],
+      "rds-popover": [
+        "rds-elements/rds-popover"
       ]
     },
     "target": "es2017",
