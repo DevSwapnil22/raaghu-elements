@@ -151,6 +151,9 @@
       ],
       "rds-radio-button": [
         "rds-elements/rds-radio-button"
+      ],
+      "rds-range": [
+        "rds-elements/rds-range"
       ]
     },
     "target": "es2017",
