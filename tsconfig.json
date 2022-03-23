@@ -157,6 +157,9 @@
       ],
       "rds-range": [
         "rds-elements/rds-range"
+      ],
+      "rds-scrollspy": [
+        "rds-elements/rds-scrollspy"
       ]
     },
     "target": "es2017",
