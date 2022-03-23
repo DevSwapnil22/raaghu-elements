@@ -86,6 +86,9 @@
       "rds-chart-radar": [
         "rds-elements/rds-chart-radar"
       ],
+      "rds-chart-scatter": [
+        "rds-elements/rds-chart-scatter"
+      ],
       "rds-checkbox": [
         "rds-elements/rds-checkbox"
       ],
