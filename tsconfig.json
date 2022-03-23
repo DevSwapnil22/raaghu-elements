@@ -163,6 +163,9 @@
       ],
       "rds-search-input": [
         "rds-elements/rds-search-input"
+      ],
+      "rds-select-list": [
+        "rds-elements/rds-select-list"
       ]
     },
     "target": "es2017",

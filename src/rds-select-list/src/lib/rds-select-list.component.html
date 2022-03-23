@@ -1,0 +1,13 @@
+<div [ngClass]="divclasses">
+  <label [ngClass]="Label==''?'d-none':'form-label'" for="Label">{{Label}}</label>
+  <select data-bs-toggle="tooltip" [attr.id]="id" id="select" [ngClass]="classesForSelect"
+    aria-label="Default select example" [disabled]="disabled" [multiple]="multiple" [size]="rows"
+    (change)="onSelect($event)">
+    <option [ngClass]="icon" *ngFor="let item of listItems">
+      {{item.value}}
+    </option>
+  </select>
+  <span [ngClass]="iconPosition">
+    <i [ngClass]="bootstrapIcon"></i>
+  </span>
+</div>
