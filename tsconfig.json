@@ -80,9 +80,6 @@
       "rds-chart-pie": [
         "rds-elements/rds-chart-pie"
       ],
-      "rds-charting": [
-        "rds-elements/rds-charting"
-      ],
       "rds-checkbox": [
         "rds-elements/rds-checkbox"
       ],
