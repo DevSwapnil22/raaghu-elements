@@ -160,6 +160,9 @@
       ],
       "rds-scrollspy": [
         "rds-elements/rds-scrollspy"
+      ],
+      "rds-search-input": [
+        "rds-elements/rds-search-input"
       ]
     },
     "target": "es2017",

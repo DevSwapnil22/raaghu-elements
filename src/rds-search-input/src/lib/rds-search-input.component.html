@@ -1,0 +1,12 @@
+<!-- <div class="position-relative w-100 d-flex">
+    <input type="text" class="w-100 p-3 rounded-start border-0 bg-light"  placeholder="{{Placeholder}}">
+    <button type="submit" class="rounded-end border-0 bg-light px-3">
+     <i [class]="icon"></i>
+   </button>
+  </div> -->
+<div class="input-group" [class]="classes">
+  <input type="text" class="form-control bg-light border-0" placeholder="{{Placeholder}}" (keyup)="sendkeyup($event)"
+    (keyup.enter)="send($event)" aria-describedby="button-addon2">
+  <button class="btn bg-light border-start-0" type="button" id="button-addon2" (click)="search()"><i
+      [class]="icon"></i></button>
+</div>
