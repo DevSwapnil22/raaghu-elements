@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/rds-elements/rds-nav-tab",
+  "dest": "../../rds-elements/rds-nav-tab",
   "lib": {
     "entryFile": "src/public-api.ts"
   }

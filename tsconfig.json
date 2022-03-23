@@ -3,7 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "outDir": "./out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
@@ -18,124 +18,124 @@
     "importHelpers": true,
     "paths": {
       "rds-add-new-box": [
-        "dist/rds-elements/rds-add-new-box"
+        "rds-elements/rds-add-new-box"
       ],
       "rds-accordian": [
-        "dist/rds-elements/rds-accordian"
+        "rds-elements/rds-accordian"
       ],
       "rds-alert": [
-        "dist/rds-elements/rds-alert"
+        "rds-elements/rds-alert"
       ],
       "rds-app-config": [
-        "dist/rds-elements/rds-app-config"
+        "rds-elements/rds-app-config"
       ],
       "rds-chart-area": [
-        "dist/rds-elements/rds-chart-area"
+        "rds-elements/rds-chart-area"
       ],
       "rds-avatar": [
-        "dist/rds-elements/rds-avatar"
+        "rds-elements/rds-avatar"
       ],
       "rds-badge": [
-        "dist/rds-elements/rds-badge"
+        "rds-elements/rds-badge"
       ],
       "rds-banner": [
-        "dist/rds-elements/rds-banner"
+        "rds-elements/rds-banner"
       ],
       "rds-big-number-widget": [
-        "dist/rds-elements/rds-big-number-widget"
+        "rds-elements/rds-big-number-widget"
       ],
       "rds-chart-bool": [
-        "dist/rds-elements/rds-chart-bool"
+        "rds-elements/rds-chart-bool"
       ],
       "rds-breadcrumb": [
-        "dist/rds-elements/rds-breadcrumb"
+        "rds-elements/rds-breadcrumb"
       ],
       "rds-chart-bubble": [
-        "dist/rds-elements/rds-chart-bubble"
+        "rds-elements/rds-chart-bubble"
       ],
       "rds-button": [
-        "dist/rds-elements/rds-button"
+        "rds-elements/rds-button"
       ],
       "rds-button-group": [
-        "dist/rds-elements/rds-button-group"
+        "rds-elements/rds-button-group"
       ],
       "rds-card": [
-        "dist/rds-elements/rds-card"
+        "rds-elements/rds-card"
       ],
       "rds-carousel": [
-        "dist/rds-elements/rds-carousel"
+        "rds-elements/rds-carousel"
       ],
       "rds-chart-bar-horizontal": [
-        "dist/rds-elements/rds-chart-bar-horizontal"
+        "rds-elements/rds-chart-bar-horizontal"
       ],
       "rds-chart-doughnut": [
-        "dist/rds-elements/rds-chart-doughnut"
+        "rds-elements/rds-chart-doughnut"
       ],
       "rds-chart-line": [
-        "dist/rds-elements/rds-chart-line"
+        "rds-elements/rds-chart-line"
       ],
       "rds-chart-mixed": [
-        "dist/rds-elements/rds-chart-mixed"
+        "rds-elements/rds-chart-mixed"
       ],
       "rds-chart-pie": [
-        "dist/rds-elements/rds-chart-pie"
+        "rds-elements/rds-chart-pie"
       ],
       "rds-charting": [
-        "dist/rds-elements/rds-charting"
+        "rds-elements/rds-charting"
       ],
       "rds-checkbox": [
-        "dist/rds-elements/rds-checkbox"
+        "rds-elements/rds-checkbox"
       ],
       "rds-collapse": [
-        "dist/rds-elements/rds-collapse"
+        "rds-elements/rds-collapse"
       ],
       "rds-color-picker": [
-        "dist/rds-elements/rds-color-picker"
+        "rds-elements/rds-color-picker"
       ],
       "rds-datepicker": [
-        "dist/rds-elements/rds-datepicker"
+        "rds-elements/rds-datepicker"
       ],
       "rds-double-range": [
-        "dist/rds-elements/rds-double-range"
+        "rds-elements/rds-double-range"
       ],
       "rds-dropdown": [
-        "dist/rds-elements/rds-dropdown"
+        "rds-elements/rds-dropdown"
       ],
       "rds-dropdownlist": [
-        "dist/rds-elements/rds-dropdownlist"
+        "rds-elements/rds-dropdownlist"
       ],
       "rds-file-uploader": [
-        "dist/rds-elements/rds-file-uploader"
+        "rds-elements/rds-file-uploader"
       ],
       "rds-icon": [
-        "dist/rds-elements/rds-icon"
+        "rds-elements/rds-icon"
       ],
       "rds-illustration": [
-        "dist/rds-elements/rds-illustration"
+        "rds-elements/rds-illustration"
       ],
       "rds-input": [
-        "dist/rds-elements/rds-input"
+        "rds-elements/rds-input"
       ],
       "rds-input-group": [
-        "dist/rds-elements/rds-input-group"
+        "rds-elements/rds-input-group"
       ],
       "rds-list-group": [
-        "dist/rds-elements/rds-list-group"
+        "rds-elements/rds-list-group"
       ],
       "rds-modal": [
-        "dist/rds-elements/rds-modal"
+        "rds-elements/rds-modal"
       ],
       "rds-nav-bar": [
-        "dist/rds-elements/rds-nav-bar"
+        "rds-elements/rds-nav-bar"
       ],
       "rds-nav-tab": [
-        "dist/rds-elements/rds-nav-tab"
+        "rds-elements/rds-nav-tab"
       ],
       "rds-offcanvas": [
-        "dist/rds-elements/rds-offcanvas"
+        "rds-elements/rds-offcanvas"
       ],
       "rds-pagination": [
-        "dist/rds-elements/rds-pagination"
+        "rds-elements/rds-pagination"
       ]
     },
     "target": "es2017",

@@ -12,7 +12,7 @@ Run `ng generate library rds-library-name` to generate a new library. You can al
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build` to build the project. The build artifacts will be stored in the `rds-elements/` directory.
 
 ## Running unit tests
 
