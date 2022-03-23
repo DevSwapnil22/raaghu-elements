@@ -1245,6 +1245,37 @@
           }
         }
       }
+    },
+    "rds-chart-polar-area": {
+      "projectType": "library",
+      "root": "src/rds-chart-polar-area",
+      "sourceRoot": "src/rds-chart-polar-area/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-chart-polar-area/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-chart-polar-area/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-chart-polar-area/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-chart-polar-area/src/test.ts",
+            "tsConfig": "src/rds-chart-polar-area/tsconfig.spec.json",
+            "karmaConfig": "src/rds-chart-polar-area/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }
