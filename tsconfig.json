@@ -142,6 +142,9 @@
       ],
       "rds-profile-card": [
         "rds-elements/rds-profile-card"
+      ],
+      "rds-progressbar": [
+        "rds-elements/rds-progressbar"
       ]
     },
     "target": "es2017",
