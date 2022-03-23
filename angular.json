@@ -1617,6 +1617,37 @@
           }
         }
       }
+    },
+    "rds-chart-stacked": {
+      "projectType": "library",
+      "root": "src/rds-chart-stacked",
+      "sourceRoot": "src/rds-chart-stacked/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-chart-stacked/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-chart-stacked/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-chart-stacked/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-chart-stacked/src/test.ts",
+            "tsConfig": "src/rds-chart-stacked/tsconfig.spec.json",
+            "karmaConfig": "src/rds-chart-stacked/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }
