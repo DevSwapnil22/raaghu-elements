@@ -166,6 +166,9 @@
       ],
       "rds-select-list": [
         "rds-elements/rds-select-list"
+      ],
+      "rds-spinner": [
+        "rds-elements/rds-spinner"
       ]
     },
     "target": "es2017",
