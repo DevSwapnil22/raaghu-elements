@@ -172,6 +172,9 @@
       ],
       "rds-spinner": [
         "rds-elements/rds-spinner"
+      ],
+      "rds-table": [
+        "rds-elements/rds-table"
       ]
     },
     "target": "es2017",
