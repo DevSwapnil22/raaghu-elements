@@ -178,6 +178,9 @@
       ],
       "rds-tags": [
         "rds-elements/rds-tags"
+      ],
+      "rds-textarea": [
+        "rds-elements/rds-textarea"
       ]
     },
     "target": "es2017",
