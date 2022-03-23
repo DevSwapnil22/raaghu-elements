@@ -83,6 +83,9 @@
       "rds-chart-polar-area": [
         "rds-elements/rds-chart-polar-area"
       ],
+      "rds-chart-radar": [
+        "rds-elements/rds-chart-radar"
+      ],
       "rds-checkbox": [
         "rds-elements/rds-checkbox"
       ],
