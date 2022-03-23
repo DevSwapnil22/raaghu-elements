@@ -1400,6 +1400,37 @@
           }
         }
       }
+    },
+    "rds-radio-button": {
+      "projectType": "library",
+      "root": "src/rds-radio-button",
+      "sourceRoot": "src/rds-radio-button/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-radio-button/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-radio-button/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-radio-button/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-radio-button/src/test.ts",
+            "tsConfig": "src/rds-radio-button/tsconfig.spec.json",
+            "karmaConfig": "src/rds-radio-button/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }

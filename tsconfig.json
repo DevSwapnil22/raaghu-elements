@@ -148,6 +148,9 @@
       ],
       "rds-progressbar": [
         "rds-elements/rds-progressbar"
+      ],
+      "rds-radio-button": [
+        "rds-elements/rds-radio-button"
       ]
     },
     "target": "es2017",
