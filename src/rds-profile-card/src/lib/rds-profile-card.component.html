@@ -1,0 +1,29 @@
+<!--<img src="https://placekitten.com/300/300" alt="" [ngClass]="{'sm-circle':Size==='Small', 'md-circle':Size==='Medium', 'lg-circle':Size==='Large'}" (click)="showProfile()" class="login-avatar">-->
+<div [class]="classes">
+  <div classess="mode">
+    <img src="https://placekitten.com/300/300" alt="" (click)="showProfile()" class="login-avatar">
+
+  </div>
+</div>
+<div *ngIf="clicked" [ngClass]="cardClasses" [ngStyle]="{'background-color':backgroundColor ,
+'color': color ,
+'width':width,
+'border-radius': borderRadious +'px',
+'border':borderwidth +'px',
+ 'height': height
+}">
+  <ng-container [ngTemplateOutlet]="header" [ngTemplateOutletContext]="{$implicit: Data}"></ng-container>
+  <ng-content select="[header]"></ng-content>
+  <div [ngClass]="cardBody" [ngStyle]="{'background-color':bodybackGroundColor,
+'padding':Paddig + 'px',
+'border':borderwidth + 'px',
+'border-radius': borderRadious + 'px'}">
+    <ng-container [ngTemplateOutlet]="body" [ngTemplateOutletContext]="{$implicit: Data}"></ng-container>
+    <ng-container [ngTemplateOutlet]="footer" [ngTemplateOutletContext]="{$implicit: Data}"></ng-container>
+    <ng-content select="[body]"></ng-content>
+  </div>
+  <div [ngStyle]="{'background-color':footerbackGroundColor,
+ 'border':borderwidth + 'px'}">
+    <ng-content select="[footer]"></ng-content>
+  </div>
+</div>

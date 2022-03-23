@@ -139,6 +139,9 @@
       ],
       "rds-popover": [
         "rds-elements/rds-popover"
+      ],
+      "rds-profile-card": [
+        "rds-elements/rds-profile-card"
       ]
     },
     "target": "es2017",
