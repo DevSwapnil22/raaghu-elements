@@ -175,6 +175,9 @@
       ],
       "rds-table": [
         "rds-elements/rds-table"
+      ],
+      "rds-tags": [
+        "rds-elements/rds-tags"
       ]
     },
     "target": "es2017",
