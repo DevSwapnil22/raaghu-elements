@@ -190,6 +190,9 @@
       ],
       "rds-toasts": [
         "rds-elements/rds-toasts"
+      ],
+      "rds-toggle": [
+        "rds-elements/rds-toggle"
       ]
     },
     "target": "es2017",
