@@ -179,6 +179,9 @@
       "rds-tags": [
         "rds-elements/rds-tags"
       ],
+      "rds-text-editor": [
+        "rds-elements/rds-text-editor"
+      ],
       "rds-textarea": [
         "rds-elements/rds-textarea"
       ]
