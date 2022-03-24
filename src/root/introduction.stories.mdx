@@ -60,19 +60,17 @@ import { ArgsTable, Canvas, Meta, Story } from '@storybook/addon-docs';
 
 ![alt text][logo]
 
-[logo]: https://github.com/Wai-Technologies/raaghu-ng-elements/raw/main/raaghu_icon.png "Raaghu Ng Elements"
+[logo]: https://github.com/Wai-Technologies/raaghu-elements/raw/main/raaghu_icon.png "Raaghu Ng Elements"
 
 </p>
 
 # Introduction
 
-# 👋 Introducing `raaghu-ng-elements` 
+# 👋 Introducing `raaghu-elements` 
 
-`raaghu-ng-elements` is an opensource micro front end framework built on top of Bootstrap 5 and Storybook offering highly customizable and reusable Angular UI elements.
+`raaghu-elements` is an opensource micro front end framework built on top of Bootstrap 5 and Storybook offering highly customizable and reusable Angular UI elements.
 
 Raaghu elements can be used as a base to build complex components and UI layouts whilst maintaining a high level of reusability.
-
-
 
 
 # 🚀 Demo
@@ -102,21 +100,19 @@ Many Thanks to all the `supporters` who have helped this project with stars(⭐)
 - All of the elements are built for a wide variety of screen sizes
 
 
-
-
-# 🏗️ How to Set up `raaghu-ng-elements` for Development?
-You can run `raaghu-ng-elements` locally with a few easy steps.
+# 🏗️ How to Set up `raaghu-elements` for Development?
+You can run `raaghu-elements` locally with a few easy steps.
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Wai-Technologies/raaghu-ng-elements.git
+git clone https://github.com/Wai-Technologies/raaghu-elements.git
 ```
 
 2. Change the working directory
 
 ```bash
-cd raaghu-ng-elements
+cd raaghu-elements
 ```
 
 3. Install dependencies
@@ -125,57 +121,74 @@ cd raaghu-ng-elements
 npm install
 ```
 
-4. Set localDev environment variable in `envronment.prod.ts` for a particular element
-```javascript 
-export const environment = {
-  production: true,
-  localDev: false 
-  // serve as micro frontend on 
-  // localhost:3000/rds-<element name>/main.js
-};
-```
-
-5. Build and serve
+4. Build all the libraries
 
 ```bash
-# Build all projects and run server
-npm run bootstrap 
+npm run build-all
+```
+> **_NOTE:_** Above comman will create a folder named "rds-elements" with all the libraries
 
-# Build a single project and start server
-npm run bootstrap -- --project=rds-<element name>
-# For rds-input
-# npm run bootstrap -- --project=rds-input
+5. Create a new blank angular project
 
-# Start server without building project
-npm run bootstrap -- --build=false
+```bash
+# use angular CLI to create a new project
+ng new <project_name>
+
+# change directory to newly created project's mode modules folder
+cd <project_name>/node_modules
+
+# copy the build folder "rds-elements", created in step 4
 ```
 
-5. Storybook
+6. Use rds-elements libraries
+
+```bash
+# Import it in your app.module.ts file, include the library
+import { RdsButtonModule } from "rds-elements/rds-button"
+
+# import the above module
+imports: [
+  RdsButtonModule
+]
+
+# Use it in the html file
+<rds-button
+  [color]="buttonColorType"
+  [block]="true"
+  size="'medium'"
+  [label]="buttonLabel"
+  [disabled]="!loginForm.valid"
+  (click)="submit()">
+</rds-button>
+```
+
+7. Build and serve
+
+```bash
+npm start
+
+```
+
+8. Storybook
 
 ```bash
 # View all elements inside storybook
 npm run storybook 
 ```
 
-All set !! Now open `localhost:3000/rds-<element name>` to see the element locally or `localhost:3000/rds-<element name>/main.js` to serve it as a micro front end.
-
-
 
 # 🍔 Built With
 - [Bootstrap 5](https://bootstrap.com/): Sleek, intuitive, and powerful framework for faster and easier web development.
 - [Storybook](https://storybook.js.org/): Build bulletproof UI components faster
-- [Angular Elements](https://angular.io/guide/elements): Build bulletproof UI components faster
-
+- [Angular Libraries](https://angular.io/guide/libraries): Build bulletproof UI components faster
 
 
 # 🛡️ License
 This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
 
 
-
-
 # 🦄 Upcoming Features
-`raaghu-ng-elements` has all the potentials to grow further. Here are some of the upcoming features,
+`raaghu-elements` has all the potentials to grow further. Here are some of the upcoming features,
 
 - ✔️ Custom plugin to reveal the reusability within your angular project
 - ✔️ Ability to convert existing elements in a project into micro front end enabled elements
@@ -183,15 +196,14 @@ This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) fi
 - ✔️ Better Performance
 - ✔️ Converiting plain angular components to custom elements
 
-If you find something is missing, we are listening. Please create a feature request [from here](https://github.com/Wai-Technologies/raaghu-ng-elements/issues/new).
+If you find something is missing, we are listening. Please create a feature request [from here](https://github.com/Wai-Technologies/raaghu-elements/issues/new).
 
 
 
 # 🤝 Contributing to `Raaghu`
 Any kind of positive contribution is welcome! Please help us to grow by contributing to the project.
 
-If you wish to contribute, you can work on any features [listed here](https://github.com/Wai-Technologies/raaghu-ng-elements#-upcoming-features) or create one on your own. After adding your code, please send us a Pull Request.  
-
+If you wish to contribute, you can work on any features [listed here](https://github.com/Wai-Technologies/raaghu-elements#-upcoming-features) or create one on your own. After adding your code, please send us a Pull Request.  
 
 
 
@@ -202,7 +214,6 @@ We all need support and motivation. `Raaghu` is not an exception. Please give th
 <h3 className="align">
 A ⭐️ to <b>Raaghu</b> is to build its triceps 💪 stronger.
 </h3>
-
 
 
 ## WAi Technology Contributors ✨
