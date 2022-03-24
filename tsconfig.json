@@ -187,6 +187,9 @@
       ],
       "rds-tile": [
         "rds-elements/rds-tile"
+      ],
+      "rds-toasts": [
+        "rds-elements/rds-toasts"
       ]
     },
     "target": "es2017",

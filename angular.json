@@ -1803,6 +1803,37 @@
           }
         }
       }
+    },
+    "rds-toasts": {
+      "projectType": "library",
+      "root": "src/rds-toasts",
+      "sourceRoot": "src/rds-toasts/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-toasts/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-toasts/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-toasts/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-toasts/src/test.ts",
+            "tsConfig": "src/rds-toasts/tsconfig.spec.json",
+            "karmaConfig": "src/rds-toasts/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }
