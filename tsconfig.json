@@ -184,6 +184,9 @@
       ],
       "rds-textarea": [
         "rds-elements/rds-textarea"
+      ],
+      "rds-tile": [
+        "rds-elements/rds-tile"
       ]
     },
     "target": "es2017",
