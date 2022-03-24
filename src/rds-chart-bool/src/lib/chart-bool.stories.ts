@@ -3,7 +3,7 @@ import { RdsChartBoolComponent } from './rds-chart-bool.component';
 
 export default {
 
-  title: 'Elements/Boolean Chart',
+  title: 'Charts/Boolean Chart',
 
   component: RdsChartBoolComponent,
   argTypes: {

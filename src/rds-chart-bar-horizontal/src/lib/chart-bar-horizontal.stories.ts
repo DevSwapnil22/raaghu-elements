@@ -2,7 +2,7 @@ import { Story, Meta } from '@storybook/angular/types-6-0';
 import { RdsChartBarHorizontalComponent } from './rds-chart-bar-horizontal.component';
 
 export default {
-  title: 'Elements/ Bar Chart',
+  title: 'Charts/Bar Chart',
   component: RdsChartBarHorizontalComponent,
   argTypes: {
     canvasBackgroundColor: { control: 'color' },

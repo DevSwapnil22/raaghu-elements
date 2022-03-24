@@ -3,7 +3,7 @@ import { Story, Meta } from '@storybook/angular/types-6-0';
 import { RdsChartAreaComponent } from './rds-chart-area.component';
 
 export default {
-  title: 'Elements/Area Chart ',
+  title: 'Charts/Area Chart ',
   component: RdsChartAreaComponent,
   argTypes: {
     canvasBackgroundColor: { control: 'color' },

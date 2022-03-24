@@ -2,7 +2,7 @@ import { Story, Meta } from '@storybook/angular/types-6-0';
 import { RdsChartScatterComponent } from './rds-chart-scatter.component';
 
 export default {
-  title: 'ELEMENTS/Scatter Chart',
+  title: 'Charts/Scatter Chart',
   component: RdsChartScatterComponent,
   argTypes: {
     canvasBackgroundColor: { control: 'color' },
@@ -18,8 +18,8 @@ const Template: Story<RdsChartScatterComponent> = (args: RdsChartScatterComponen
   props: args,
 });
 
-export const ScatterChart = Template.bind({});
-ScatterChart.args = {
+export const Basic = Template.bind({});
+Basic.args = {
   chartDatasets: [
     {
       type: 'scatter',

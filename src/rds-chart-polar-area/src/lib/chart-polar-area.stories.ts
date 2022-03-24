@@ -2,7 +2,7 @@ import { Story, Meta } from '@storybook/angular/types-6-0';
 import { RdsChartPolarAreaComponent } from './rds-chart-polar-area.component';
 
 export default {
-  title: 'ELEMENTS/Polar Area Chart',
+  title: 'Charts/Polar Area Chart',
   component: RdsChartPolarAreaComponent,
   argTypes: {
     canvasBackgroundColor: { control: 'color' },
@@ -19,9 +19,8 @@ const Template: Story<RdsChartPolarAreaComponent> = (args: RdsChartPolarAreaComp
 
 });
 
-
-export const PolarAreaChart = Template.bind({});
-PolarAreaChart.args = {
+export const Basic = Template.bind({});
+Basic.args = {
   chartDatasets: [
     {
       label: 'Dataset 1',

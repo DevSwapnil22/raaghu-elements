@@ -2,7 +2,7 @@ import { Story, Meta } from '@storybook/angular/types-6-0';
 import { RdsChartLineComponent } from './rds-chart-line.component';
 
 export default {
-  title: 'ELEMENTS/Line Chart',
+  title: 'Charts/Line Chart',
   component: RdsChartLineComponent,
   argTypes: {
     canvasBackgroundColor: { control: 'color' },

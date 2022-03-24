@@ -3,7 +3,7 @@ import { RdsChartStackedComponent } from './rds-chart-stacked.component';
 
 export default {
 
-  title: 'ELEMENTS/Stacked Chart',
+  title: 'Charts/Stacked Chart',
 
   component: RdsChartStackedComponent,
   argTypes: {
@@ -20,8 +20,8 @@ const Template: Story<RdsChartStackedComponent> = (args: RdsChartStackedComponen
   props: args,
 
 });
-export const stackedChart = Template.bind({});
-stackedChart.args = {
+export const Basic = Template.bind({});
+Basic.args = {
   chartDatasets: [
     {
       label: 'My Second dataset',

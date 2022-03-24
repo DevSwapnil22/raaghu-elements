@@ -3,7 +3,7 @@ import { updateLocale } from 'ngx-bootstrap/chronos';
 import { RdsChartDoughnutComponent } from './rds-chart-doughnut.component';
 
 export default {
-  title: 'Elements/Doughnut Chart',
+  title: 'Charts/Doughnut Chart',
   component: RdsChartDoughnutComponent,
   argTypes: {
     canvasBackgroundColor: { control: 'color' },
@@ -20,8 +20,8 @@ const Template: Story<RdsChartDoughnutComponent> = (args: RdsChartDoughnutCompon
 
 });
 
-export const DoughnutChart = Template.bind({});
-DoughnutChart.args = {
+export const Basic = Template.bind({});
+Basic.args = {
   chartDatasets: [
     {
       label: 'Dataset 1',

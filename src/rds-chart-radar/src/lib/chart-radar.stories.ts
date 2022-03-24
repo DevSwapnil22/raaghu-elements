@@ -2,7 +2,7 @@ import { Story, Meta } from '@storybook/angular/types-6-0';
 import { RdsChartRadarComponent } from './rds-chart-radar.component';
 
 export default {
-    title: 'Elements/Radar Chart',
+    title: 'Charts/Radar Chart',
     component: RdsChartRadarComponent,
     argTypes: {
         canvasBackgroundColor: { control: 'color' },
@@ -17,9 +17,8 @@ const Template: Story<RdsChartRadarComponent> = (args: RdsChartRadarComponent) =
     props: args,
 });
 
-export const RadarChart = Template.bind({});
-
-RadarChart.args = {
+export const Basic = Template.bind({});
+Basic.args = {
 
     chartDatasets: [
         {

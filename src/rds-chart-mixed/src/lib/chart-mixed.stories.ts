@@ -2,7 +2,7 @@ import { Story, Meta } from '@storybook/angular/types-6-0';
 import { RdsChartMixedComponent } from './rds-chart-mixed.component';
 
 export default {
-  title: 'Elements/Mixed Chart',
+  title: 'Charts/Mixed Chart',
   component: RdsChartMixedComponent,
   argTypes: {
     canvasBackgroundColor: { control: 'color' },
@@ -18,8 +18,8 @@ const Template: Story<RdsChartMixedComponent> = (args: RdsChartMixedComponent) =
   props: args,
 
 });
-export const MixedChart = Template.bind({});
-MixedChart.args = {
+export const Basic = Template.bind({});
+Basic.args = {
 
   chartDatasets: [
     {

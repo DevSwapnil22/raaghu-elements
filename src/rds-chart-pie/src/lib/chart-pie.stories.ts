@@ -3,7 +3,7 @@ import Chart from 'chart.js/auto';
 import { RdsChartPieComponent } from './rds-chart-pie.component';
 
 export default {
-  title: 'Elements/Pie Chart',
+  title: 'Charts/Pie Chart',
   component: RdsChartPieComponent,
   argTypes: {
     canvasBackgroundColor: { control: 'color' },
@@ -18,8 +18,8 @@ const Template: Story<RdsChartPieComponent> = (args: RdsChartPieComponent) => ({
   props: args,
 });
 
-export const pieChart = Template.bind({});
-pieChart.args = {
+export const Basic = Template.bind({});
+Basic.args = {
   chartDatasets: [
     {
       label: 'Dataset1',

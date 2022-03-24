@@ -2,7 +2,7 @@ import { Story, Meta } from '@storybook/angular/types-6-0';
 import { RdsChartBubbleComponent } from './rds-chart-bubble.component';
 
 export default {
-  title: 'ELEMENTS/Bubble Chart',
+  title: 'Charts/Bubble Chart',
   component: RdsChartBubbleComponent,
   argTypes: {
     canvasBackgroundColor: { control: 'color' },
