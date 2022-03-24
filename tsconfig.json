@@ -193,6 +193,9 @@
       ],
       "rds-toggle": [
         "rds-elements/rds-toggle"
+      ],
+      "rds-tooltip": [
+        "rds-elements/rds-tooltip"
       ]
     },
     "target": "es2017",
