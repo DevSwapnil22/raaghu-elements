@@ -1896,6 +1896,37 @@
           }
         }
       }
+    },
+    "rds-validation": {
+      "projectType": "library",
+      "root": "src/rds-validation",
+      "sourceRoot": "src/rds-validation/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "src/rds-validation/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "src/rds-validation/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "src/rds-validation/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/rds-validation/src/test.ts",
+            "tsConfig": "src/rds-validation/tsconfig.spec.json",
+            "karmaConfig": "src/rds-validation/karma.conf.js"
+          }
+        }
+      }
     }
   }
 }

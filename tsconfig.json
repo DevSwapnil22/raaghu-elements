@@ -196,6 +196,9 @@
       ],
       "rds-tooltip": [
         "rds-elements/rds-tooltip"
+      ],
+      "rds-validation": [
+        "rds-elements/rds-validation"
       ]
     },
     "target": "es2017",
